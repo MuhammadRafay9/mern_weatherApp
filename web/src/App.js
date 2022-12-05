@@ -10,7 +10,10 @@ let baseUrl = ``;
 if (window.location.href.split(":")[0] === "http") {
   baseUrl = `http://localhost:5001`;
 }
-
+else
+{
+  baseUrl =`https://uptight-lion-suspenders.cyclic.app`
+}
 
 
 function App() {
