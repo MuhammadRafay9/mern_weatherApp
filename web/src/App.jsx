@@ -19,7 +19,7 @@ else
 function App() {
 
   const [weatherData, setWeatherData] = useState(null)
-  const [cityDetail, setCityDetail] = useState(null)
+ 
   const [cityName, setCityName] = useState("")
 
   const submitHandler = (e) => {
